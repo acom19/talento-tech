@@ -51,5 +51,6 @@ resource "aws_security_group" "rds_securit_group" {
   }
   tags = {
     Name = "rds-security-group"
+    proyecto = "Talento-tech"
   }
 }
